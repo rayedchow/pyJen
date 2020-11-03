@@ -1,0 +1,25 @@
+{
+	"conversationStartKeywords": [
+		"Hey man",
+		"Yo",
+		"Hello",
+		"Oi mate",
+		"Hey dude"
+	],
+	"responseKeywords": [
+		"Alright then",
+		"Alrighty",
+		"Alright",
+		"Alrighty then",
+		"Well then",
+		"Well",
+		"Ah",
+		"Ah okay",
+		"Okay",
+		"Okay then",
+		"So"
+	],
+	"modules": [
+		"Day"
+	]
+}

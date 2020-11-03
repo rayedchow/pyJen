@@ -1,0 +1,69 @@
+{
+	"moduleQuestion": [
+		"how has your day been",
+		"is your day going well so far",
+		"is your day going well",
+		"how is your day",
+		"how are you",
+		"how are ya"
+	],
+	"moduleKeywords": [
+		{
+			"keyword": "great",
+			"subkeywords": [
+				"awesome",
+				"splendid",
+				"cool",
+				"good",
+				"yeah",
+				"yes",
+				"yep",
+				"yup"
+			],
+			"positivityLevel": 10,
+			"responses": [
+				"that is good to hear",
+				"that's good to hear",
+				"im glad"
+			]
+		},
+		{
+			"keyword": "decent",
+			"subkeywords": [
+				"eh",
+				"normal",
+				"ok"
+			],
+			"positivityLevel": 0,
+			"responses": [
+				"I hope you have a better day tomorrow",
+				"alright",
+				"atleast it isn't bad"
+			]
+		},
+		{
+			"keyword": "bad",
+			"subkeywords": [
+				"nah",
+				"terrible",
+				"horrible",
+				"shit",
+				"horrific",
+				"no",
+				"nope"
+			],
+			"positivityLevel": 0,
+			"responses": [
+				"I hope you have a better day tomorrow",
+				"oof",
+				"I wish you a better day tomorrow",
+				{
+					"question": "what is wrong with your day"
+				},
+				{
+					"question": "did anything go wrong"
+				}
+			]
+		}
+	]
+}
